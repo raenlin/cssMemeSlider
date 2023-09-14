@@ -3,9 +3,14 @@
   padding: 0;
 }
 
+body {
+  background-color: #d0d0d0;
+}
+
 .wrapper {
-  width: 100vw;
-  background-color: darkgrey;
+  width: 80vw;
+  margin: 0 auto;
+  background-color: #d0d0d0;
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
@@ -13,7 +18,7 @@
 .slider__wrapper {
   margin: 0 auto;
   overflow: hidden;
-  max-width: 70vw;
+  max-width: 50vw;
   max-height: 80vh;
 }
 
@@ -29,6 +34,7 @@
 }
 
 .slide-img {
+  border-radius: 1%;
   width: 100%;
   height: 100%;
 }
@@ -36,7 +42,7 @@
 .slider__nav {
   display: flex;
   gap: 0.5rem;
-  margin-left: 49rem;
+  margin-left: 70%;
   margin-top: 2rem;
 }
 
@@ -56,19 +62,35 @@ input {
   display: none;
 }
 
-#btn-1:checked ~ .slide-1 {
+#btn-1:checked ~ .slider__wrapper .slider .slide-1 {
   margin-left: 0;
 }
 
-#btn-2:checked ~ .slide-1 {
+#btn-2:checked ~ .slider__wrapper .slider .slide-1 {
   margin-left: -25%;
 }
 
-#btn-3:checked ~ .slide-1 {
-  margin-left: -55%;
+#btn-3:checked ~ .slider__wrapper .slider .slide-1 {
+  margin-left: -50%;
 }
 
-#btn-4:checked ~ .slide-1 {
+#btn-4:checked ~ .slider__wrapper .slider .slide-1 {
   margin-left: -75%;
+}
+
+#btn-1:checked ~ .slider__nav .slider__nav-button1 {
+  background-color: aqua;
+}
+
+#btn-2:checked ~ .slider__nav .slider__nav-button2 {
+  background-color: aqua;
+}
+
+#btn-3:checked ~ .slider__nav .slider__nav-button3 {
+  background-color: aqua;
+}
+
+#btn-4:checked ~ .slider__nav .slider__nav-button4 {
+  background-color: aqua;
 }
 
