@@ -50,12 +50,12 @@ body {
 
 .slider__text-wrapper {
   overflow: hidden;
-  max-width: 50%;
+  width: 50%;
 }
 
 .slider__text {
   font-family: sans-serif;
-  font-size: 1.5rem;
+  font-size: 2vw;
   display: flex;
   width: 400%;
 }
@@ -76,14 +76,14 @@ body {
 
 .slider__nav-button {
   cursor: pointer;
-  width: 1rem;
-  height: 1rem;
+  width: 1.5vw;
+  height: 1.5vw;
   border-radius: 50%;
   background-color: #FFFAFA;
 }
 
 .slider__nav-button:hover {
-  background-color: antiquewhite;
+  background-color: #BC8F8F;
 }
 
 input {
@@ -129,18 +129,30 @@ input {
 /*buttons checked enable*/
 
 #btn-1:checked ~ .slider__bottom .slider__nav .slider__nav-button1 {
-  background-color: #DC143C;
+  background-color: #696969;
+  width: 1.3vw;
+  height: 1.3vw;
+  border: 0.2vw solid #DC143C;
 }
 
 #btn-2:checked ~ .slider__bottom  .slider__nav .slider__nav-button2 {
-  background-color: #DC143C;
+  background-color: #696969;
+  width: 1.3vw;
+  height: 1.3vw;
+  border: 0.2vw solid #DC143C;
 }
 
 #btn-3:checked ~ .slider__bottom  .slider__nav .slider__nav-button3 {
-  background-color: #DC143C;
+  background-color: #696969;
+  width: 1.3vw;
+  height: 1.3vw;
+  border: 0.2vw solid #DC143C;
 }
 
 #btn-4:checked ~ .slider__bottom  .slider__nav .slider__nav-button4 {
-  background-color: #DC143C;
+  background-color: #696969;
+  width: 1.3vw;
+  height: 1.3vw;
+  border: 0.2vw solid #DC143C;
 }
 
